@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <!-- Chevron rows, echoing the quilt's border chevrons -->
+  <g fill="none" stroke="#1c1712" stroke-width="1.5" opacity="0.55">
+    <path d="M0 18 L10 6 L20 18 L30 6 L40 18 L50 6 L60 18 L70 6 L80 18 L90 6 L100 18 L110 6 L120 18"/>
+    <path d="M0 32 L10 20 L20 32 L30 20 L40 32 L50 20 L60 32 L70 20 L80 32 L90 20 L100 32 L110 20 L120 32"/>
+  </g>
+  <!-- Triangle row, echoing the quilt's center-field triangles -->
+  <g fill="none" stroke="#8c8371" stroke-width="1.2" opacity="0.5">
+    <path d="M0 58 L60 88 L120 58"/>
+    <path d="M0 70 L60 100 L120 70"/>
+  </g>
+  <!-- Dot row -->
+  <g fill="#1c1712" opacity="0.32">
+    <rect x="4" y="44" width="4" height="4"/>
+    <rect x="24" y="44" width="4" height="4"/>
+    <rect x="44" y="44" width="4" height="4"/>
+    <rect x="64" y="44" width="4" height="4"/>
+    <rect x="84" y="44" width="4" height="4"/>
+    <rect x="104" y="44" width="4" height="4"/>
+  </g>
+  <!-- Dash row, echoing the quilt's vertical dash columns -->
+  <g fill="none" stroke="#8c8371" stroke-width="1.2" opacity="0.45">
+    <line x1="0" y1="104" x2="10" y2="116"/>
+    <line x1="10" y1="104" x2="20" y2="116"/>
+    <line x1="20" y1="104" x2="30" y2="116"/>
+    <line x1="30" y1="104" x2="40" y2="116"/>
+    <line x1="40" y1="104" x2="50" y2="116"/>
+    <line x1="50" y1="104" x2="60" y2="116"/>
+    <line x1="60" y1="104" x2="70" y2="116"/>
+    <line x1="70" y1="104" x2="80" y2="116"/>
+    <line x1="80" y1="104" x2="90" y2="116"/>
+    <line x1="90" y1="104" x2="100" y2="116"/>
+    <line x1="100" y1="104" x2="110" y2="116"/>
+    <line x1="110" y1="104" x2="120" y2="116"/>
+  </g>
+</svg>
