@@ -571,6 +571,7 @@ p, li, span {
   gap: var(--space-16);
   position: relative;
   overflow: hidden;
+  flex-shrink: 0;   /* ← add this line */
 }
 .modal-card__header::before {
   content: "";
