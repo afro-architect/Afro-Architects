@@ -390,7 +390,86 @@ const MODULES = {
         body: `<p>The right convention depends on audience and purpose — a technical construction document needs precise line weights and notation; a community presentation might favor a warm, legible diagram or rendering.</p>
         <p>Ask yourself: who is reading this drawing, and what decision do I need it to help them make?</p>
         <p class="topic-prompt">Reflect &amp; discuss: How would you draw the same idea differently for a contractor versus for a neighborhood meeting?</p>`
-      }
+      }, 
+       {
+  title: "Line Weights and Visual Hierarchy",
+  body: `<p>Line weight is one of the main tools architects use to organize a drawing. It helps the viewer tell what is cut, what is seen beyond, what is secondary, and what should stay in the background.</p>
+  <p>As a general convention, cut lines and ground lines are the heaviest, outer form lines are medium-heavy, interior edges and enclosure lines are lighter, hidden or dashed lines are lighter still, and entourage should remain the lightest. The exact weights can shift with page size and output scale, but the visual hierarchy should stay consistent.</p>
+  <p>Common line-weight ranges are shown below. These are typical drafting conventions, not universal rules, so always check your studio or office standard.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Element</th>
+        <th>Typical mm</th>
+        <th>Approx. pt</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Cut lines / ground lines</td>
+        <td>0.50–0.70 mm</td>
+        <td>1.4–2.0 pt</td>
+      </tr>
+      <tr>
+        <td>Outer form / elevation lines</td>
+        <td>0.35–0.40 mm</td>
+        <td>1.0–1.1 pt</td>
+      </tr>
+      <tr>
+        <td>Inside corners / enclosure lines</td>
+        <td>0.15–0.25 mm</td>
+        <td>0.4–0.7 pt</td>
+      </tr>
+      <tr>
+        <td>Hidden / dashed lines</td>
+        <td>0.15–0.20 mm</td>
+        <td>0.4–0.6 pt</td>
+      </tr>
+      <tr>
+        <td>Entourage / fine background detail</td>
+        <td>0.08–0.13 mm</td>
+        <td>0.2–0.4 pt</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how line weight helps a drawing communicate hierarchy.</p>`
+},
+{
+  title: "Graphic Scales",
+  body: `<p>A graphic scale is a drawn scale bar that lets the viewer measure a drawing even if the page is resized or printed differently. It helps protect the drawing from scale loss when files are copied, shared, or viewed digitally.</p>
+  <p>Use a graphic scale whenever a drawing needs to remain measurable, especially on plans, elevations, and details. A good scale bar should be clear, labeled, and easy to read at the size the sheet will actually be used.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains why a graphic scale matters even when a drawing already has a written scale.</p>`
+},
+{
+  title: "North Arrows",
+  body: `<p>A north arrow tells the viewer how the drawing is oriented in relation to the site and the larger world. It is a small symbol, but it helps establish direction, context, and spatial clarity.</p>
+  <p>Place the north arrow where it is easy to find and keep it consistent across sheets when possible. A clear north arrow supports wayfinding, site reading, and comparison between drawings.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how a north arrow helps a viewer understand a project.</p>`
+},
+{
+  title: "Title Blocks",
+  body: `<p>A title block is the information area that identifies the drawing and tells the viewer what they are looking at. It usually includes the project name, drawing title, scale, date, sheet number, and other key reference information.</p>
+  <p>A strong title block should be easy to read and organized with a clear hierarchy of text. It helps the sheet feel complete, professional, and easy to reference during pin-up, review, or construction.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains what information a title block must communicate.</p>`
+},
+{
+  title: "Sheet Layout",
+  body: `<p>Sheet layout is the arrangement of drawings, notes, titles, and white space on the page. A clear layout helps the viewer understand what matters most and how to move through the sheet.</p>
+  <p>The main drawing should usually be the dominant image, with supporting diagrams, labels, and notes placed so they do not compete with it. Good layout is not just about decoration; it is about making the drawing readable and intentional.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how layout shapes the clarity of a drawing sheet.</p>`
+},
+{
+  title: "Section Marks and Callouts",
+  body: `<p>Section marks and callouts help the viewer move between drawings and understand where a cut, detail, or reference is coming from. They are part of the system that connects one drawing to another.</p>
+  <p>These symbols should be consistent, legible, and placed where the viewer can follow them without confusion. Good callouts make the drawing set easier to navigate and more precise to read.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how section marks link drawings together.</p>`
+},
+{
+  title: "Symbols and Conventions",
+  body: `<p>Symbols and conventions are the shared graphic language that makes architectural drawings understandable. They include arrows, hatches, line types, section indicators, and other standard marks used across the drawing set.</p>
+  <p>When used consistently, these conventions help the viewer read the sheet quickly and accurately. The goal is not to decorate the page, but to communicate clearly.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains why shared drawing conventions matter.</p>`
+}
     ]
   },
 
@@ -450,15 +529,27 @@ const MODULES = {
         <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains the "why" behind a design choice you've made.</p>`
       },
        {
+  title: "What Makes Something Architectural?",
+  body: `<p>Something becomes architectural when it does more than take shape. It organizes space, guides movement, frames use, and establishes a meaningful relationship between people, structure, and place.</p>
+  <p>To read as architectural, a project should show deliberate choices about enclosure, scale, circulation, threshold, and context. The question is not only what it looks like, but how it works as an environment.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains why a project reads as architectural rather than simply built.</p>`
+},
+       {
   title: "Formal Logic",
   body: `<p>Formal logic is the underlying reasoning that makes a design feel consistent. It helps students explain why a building looks the way it does, and how each decision supports the overall concept.</p>
   <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains the “why” behind a design choice.</p>`
 },
-{
+  {
+  title: "Syntax",
+  body: `<p>In architecture, syntax names the logic that organizes how forms, spaces, and elements relate to one another. It is not a decorative word for style; it is a way of describing the rules that make a design legible, consistent, and intentional.</p>
+  <p>A project with syntax shows a clear relationship between parts, sequence, and structure. You should be able to point to the rule it follows, whether that rule is repetition, alignment, hierarchy, symmetry, or variation.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that names the rule or logic holding a design together.</p>`
+},
+       {
   title: "Order",
   body: `<p>Order is how architectural elements are arranged so a building feels intentional rather than random. Architects use order systems like axis, symmetry, hierarchy, rhythm, and repetition to organize space and guide experience.</p>
   <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence about how order helps a building feel clear and balanced.</p>`
-},
+},      
 {
   title: "Massing",
   body: `<p>Massing is the overall shape and volume of a building before details are added. It helps designers think about scale, silhouette, proportion, and how a structure sits in its site and surroundings.</p>
@@ -484,10 +575,29 @@ const MODULES = {
   body: `<p>Proportion is the relationship between parts of a building and the whole. Good proportion helps a design feel balanced, legible, and visually coherent.</p>
   <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence about how the size of parts affects the whole design.</p>`
 },
+       {
+  title: "Circulation",
+  body: `<p>Circulation is the path people take through a building, and it is one of the main ways architecture shapes experience. A strong circulation system makes movement clear, supports orientation, and connects spaces in a way that feels intentional.</p>
+  <p>When reviewing a design, look for approach, entrance, sequence, vertical movement, and the relationship between paths and rooms. Circulation should help people know where they are, where they are going, and how the building is meant to be used.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how a building leads the body through space.</p>`
+},
 {
   title: "Space and Enclosure",
   body: `<p>Architecture is not only about objects but also about the spaces they create. Walls, openings, thresholds, and circulation paths shape how people move, pause, gather, and experience a place.</p>
   <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence about how architecture shapes the space around us.</p>`
+},
+       {
+  title: "Context",
+  body: `<p>Context is the set of conditions a project responds to, including site, climate, culture, history, community, and neighboring buildings. A context-aware design does not copy what is around it; it makes a clear decision about how to belong there.</p>
+  <p>When reading a project, ask what it acknowledges, what it resists, and what it transforms. Good context work shows that a building understands where it is and who it is for.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how a design responds to its place.</p>`
+},
+       {
+  title: "Architectural Program",
+  body: `<p>Architectural program names the full set of uses, activities, and spatial requirements a project must support. It is where design begins to take shape around real needs rather than abstract form.</p>
+  <p>A strong program should identify what has to happen in the building, who the spaces are for, how the spaces relate to one another, and what conditions each space needs in order to work well. Program is not just a list of rooms; it is the logic of use, adjacency, and performance.</p>
+  <p>When you review a project, ask whether the program is clear, complete, and believable. A thoughtful program helps explain why spaces are placed where they are, how they connect, and what makes the design usable.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains the use, relationship, or requirement that shapes a building’s program.</p>`
 }
     ]
   },
