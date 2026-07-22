@@ -449,17 +449,7 @@ const MODULES = {
         <p>Being able to articulate the theory behind your design — in a crit, a portfolio, or a client meeting — is often what separates a good design from one that's understood and championed.</p>
         <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains the "why" behind a design choice you've made.</p>`
       },
-        {
-  title: "Additive Form",
-  body: `<p>Architecture can begin by stacking, joining, or layering parts into a whole. This approach creates buildings that feel assembled over time, with each piece contributing to the overall massing and spatial experience.</p>
-  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how adding parts changes the feeling of a building.</p>`
-},
-{
-  title: "Subtractive Form",
-  body: `<p>Instead of building up, subtractive design starts with a solid mass and carves into it. Courtyards, atriums, openings, and recessed entries often come from this way of thinking.</p>
-  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how carving into a form can create space.</p>`
-},
-{
+       {
   title: "Formal Logic",
   body: `<p>Formal logic is the underlying reasoning that makes a design feel consistent. It helps students explain why a building looks the way it does, and how each decision supports the overall concept.</p>
   <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains the “why” behind a design choice.</p>`
@@ -473,6 +463,16 @@ const MODULES = {
   title: "Massing",
   body: `<p>Massing is the overall shape and volume of a building before details are added. It helps designers think about scale, silhouette, proportion, and how a structure sits in its site and surroundings.</p>
   <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence about how a building’s big shape affects its presence.</p>`
+}, 
+       {
+  title: "Additive Form",
+  body: `<p>Architecture can begin by stacking, joining, or layering parts into a whole. This approach creates buildings that feel assembled over time, with each piece contributing to the overall massing and spatial experience.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how adding parts changes the feeling of a building.</p>`
+},
+{
+  title: "Subtractive Form",
+  body: `<p>Instead of building up, subtractive design starts with a solid mass and carves into it. Courtyards, atriums, openings, and recessed entries often come from this way of thinking.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how carving into a form can create space.</p>`
 },
 {
   title: "Scale",
