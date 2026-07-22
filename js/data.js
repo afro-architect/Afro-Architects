@@ -448,7 +448,47 @@ const MODULES = {
         body: `<p>Architects use design theory to guide decision-making, to write about their own work, and to situate a project within a larger cultural or historical conversation.</p>
         <p>Being able to articulate the theory behind your design — in a crit, a portfolio, or a client meeting — is often what separates a good design from one that's understood and championed.</p>
         <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains the "why" behind a design choice you've made.</p>`
-      }
+      },
+        {
+  title: "Additive Form",
+  body: `<p>Architecture can begin by stacking, joining, or layering parts into a whole. This approach creates buildings that feel assembled over time, with each piece contributing to the overall massing and spatial experience.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how adding parts changes the feeling of a building.</p>`
+},
+{
+  title: "Subtractive Form",
+  body: `<p>Instead of building up, subtractive design starts with a solid mass and carves into it. Courtyards, atriums, openings, and recessed entries often come from this way of thinking.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains how carving into a form can create space.</p>`
+},
+{
+  title: "Formal Logic",
+  body: `<p>Formal logic is the underlying reasoning that makes a design feel consistent. It helps students explain why a building looks the way it does, and how each decision supports the overall concept.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence that explains the “why” behind a design choice.</p>`
+},
+{
+  title: "Order",
+  body: `<p>Order is how architectural elements are arranged so a building feels intentional rather than random. Architects use order systems like axis, symmetry, hierarchy, rhythm, and repetition to organize space and guide experience.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence about how order helps a building feel clear and balanced.</p>`
+},
+{
+  title: "Massing",
+  body: `<p>Massing is the overall shape and volume of a building before details are added. It helps designers think about scale, silhouette, proportion, and how a structure sits in its site and surroundings.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence about how a building’s big shape affects its presence.</p>`
+},
+{
+  title: "Scale",
+  body: `<p>Scale describes the relationship between a building, the human body, and its context. A design can feel intimate, monumental, compressed, or open depending on how scale is handled.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence about how scale changes how people experience space.</p>`
+},
+{
+  title: "Proportion",
+  body: `<p>Proportion is the relationship between parts of a building and the whole. Good proportion helps a design feel balanced, legible, and visually coherent.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence about how the size of parts affects the whole design.</p>`
+},
+{
+  title: "Space and Enclosure",
+  body: `<p>Architecture is not only about objects but also about the spaces they create. Walls, openings, thresholds, and circulation paths shape how people move, pause, gather, and experience a place.</p>
+  <p class="topic-prompt">Reflect &amp; discuss: Practice writing one sentence about how architecture shapes the space around us.</p>`
+}
     ]
   },
 
